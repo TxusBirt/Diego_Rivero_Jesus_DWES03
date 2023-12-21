@@ -3,13 +3,13 @@ Obtener Todos los registros
 url: http://localhost/ud03te01/public/vehiculocontroller/get
 resultado obtenido:
 Codigo 200 y mensaje "registros recuperados con éxito"
-Archivo json con los datos
+Archivo json con los datos(no se ve pero lo retorna la funcion)
 
 Obtener 1 sólo registro por id
 url: http://localhost/ud03te01/public/vehiculocontroller/get/1
 resultado obtenido:
 Codigo 200 y mensaje "registro recuperado con éxito"
-Archivo json con los datos
+Archivo json con los datos (no se ve pero lo retorna la funcion)
 
 ---------------------------------POST-----------------------------------------
 Crear un registro
