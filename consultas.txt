@@ -1,0 +1,52 @@
+--------------------------GET--------------------------------------
+Obtener Todos los registros
+url: http://localhost/ud03te01/public/vehiculocontroller/get
+resultado obtenido:
+Codigo 200 y mensaje "registros recuperados con éxito"
+Archivo json con los datos
+
+Obtener 1 sólo registro por id
+url: http://localhost/ud03te01/public/vehiculocontroller/get/1
+resultado obtenido:
+Codigo 200 y mensaje "registro recuperado con éxito"
+Archivo json con los datos
+
+---------------------------------POST-----------------------------------------
+Crear un registro
+url: http://localhost/ud03te01/public/vehiculocontroller/create
+En el body:
+    {
+      "marca": "opel",
+      "modelo": "corsa",
+      "kilometros": 104000,
+      "year": 2015,
+      "clase": "turismo",
+      "electrico": "no",
+      "disponible": "si",
+      "prestado": "si",
+      "fecha_inicio": "22/01/23",
+      "fecha_fin": "25/01/2023",
+      "usuario_id": 107,
+      "revision": "si",
+      "id": 11
+    }
+
+resultado obtenido:
+Codigo 200 y mensaje "registro creado con éxito"
+Se incluye en la BBDD el nuevo registro
+
+---------------------------------PUT-----------------------------------------
+url: http://localhost/ud03te01/public/vehiculocontroller/update/3
+En el body:
+    {
+      "fecha_inicio": "22/01/28",
+      "fecha_fin": "25/01/2028",
+    }
+resultado obtenido:
+Codigo 200 y mensaje "registro actualizado con éxito"
+Se  actualiza el registro en la BBDD
+---------------------------------DELETE-----------------------------------------
+url: http://localhost/ud03te01/public/vehiculocontroller/delete/4
+resultado obtenido:
+Codigo 200 y mensaje "registro eliminado con éxito"
+Se elimina el registro de la BBDD
