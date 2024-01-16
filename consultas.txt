@@ -1,19 +1,19 @@
 --------------------------GET--------------------------------------
 Obtener Todos los registros
-url: http://localhost/ud03te01/public/vehiculocontroller/get
+url: http://localhost/Diego_Rivero_Jesus_DWES03/ud03te01/public/vehiculocontroller/get
 resultado obtenido:
 Codigo 200 y mensaje "registros recuperados con éxito"
 Archivo json con los datos(no se ve pero lo retorna la funcion)
 
 Obtener 1 sólo registro por id
-url: http://localhost/ud03te01/public/vehiculocontroller/get/1
+url: http://localhost/Diego_Rivero_Jesus_DWES03/ud03te01/public/vehiculocontroller/get/1
 resultado obtenido:
 Codigo 200 y mensaje "registro recuperado con éxito"
 Archivo json con los datos (no se ve pero lo retorna la funcion)
 
 ---------------------------------POST-----------------------------------------
 Crear un registro
-url: http://localhost/ud03te01/public/vehiculocontroller/create
+url: http://localhost/Diego_Rivero_Jesus_DWES03/ud03te01/public/vehiculocontroller/create
 En el body:
     {
       "marca": "opel",
@@ -36,7 +36,7 @@ Codigo 200 y mensaje "registro creado con éxito"
 Se incluye en la BBDD el nuevo registro
 
 ---------------------------------PUT-----------------------------------------
-url: http://localhost/ud03te01/public/vehiculocontroller/update/3
+url: http://localhost/Diego_Rivero_Jesus_DWES03/ud03te01/public/vehiculocontroller/update/3
 En el body:
     {
       "fecha_inicio": "22/01/28",
@@ -46,7 +46,7 @@ resultado obtenido:
 Codigo 200 y mensaje "registro actualizado con éxito"
 Se  actualiza el registro en la BBDD
 ---------------------------------DELETE-----------------------------------------
-url: http://localhost/ud03te01/public/vehiculocontroller/delete/4
+url: http://localhost/Diego_Rivero_Jesus_DWES03/ud03te01/public/vehiculocontroller/delete/4
 resultado obtenido:
 Codigo 200 y mensaje "registro eliminado con éxito"
 Se elimina el registro de la BBDD
